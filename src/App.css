@@ -1,0 +1,127 @@
+body {
+  background-color: hsl(234, 29%, 20%)
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.newsletter-card {
+  display: flex;
+  border-radius: 2%;
+  background-color: white;
+  width: 100%;
+}
+
+.newsletter-card-left {
+  display: flex;
+  flex-direction: column;
+  margin: 10% 2%;
+  max-width: 50%;
+}
+
+.newsletter-card-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0% 8%;
+  margin: 0%;
+  width: 100%;
+}
+
+.newsletter-card-form p {
+  margin: 0%;
+  padding-bottom: 2%;
+}
+
+.newsletter-card-form form {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+}
+
+.noerror_email_design {
+  width: 100%;
+  text-align: left;
+  padding: 3%;
+  border: none;
+  border: 1px solid hsl(234, 29%, 20%);
+  border-radius: 8px;
+}
+
+.newsletter-card-text {
+  text-align: left;
+  padding-left: 8%;
+  margin: 5% 0%;
+}
+
+.newsletter-card-text ul {
+  text-align: left;
+  padding: 0%;
+}
+
+.newsletter-card-image {
+  margin: 2%;
+  max-width: 50%;
+}
+
+.icon_style {
+  color: #FF6155;
+}
+
+.btnSubscribe {
+  width: 85%;
+  padding: 3%;
+  border: 1px solid hsl(234, 29%, 20%);
+  border-radius: 8px;
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.email_error{
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.messageError {
+  color: red;
+}
+
+.error_email_design {
+  width: 100%;
+  text-align: left;
+  padding: 3%;
+  border: none;
+  border: 1px solid red;
+  border-radius: 8px;
+  color: red;
+}
+
+.card_success {
+  margin: auto;
+  width: 60%;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.card_success_items {
+  padding: 2em;
+}
+
+.btnSuccess{
+  width: 80%;
+  padding: 0.7em;
+  margin-top: 2em;
+  color: white;
+  background-color: hsl(234, 29%, 20%);
+  border-radius: 15px;
+}
